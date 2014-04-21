@@ -1,0 +1,101 @@
+body {
+	background-color: silver;
+	font-family: Georgia, Serif;
+}
+
+.contact {
+	z-index:4;
+	position: fixed;
+	margin-left: 65%;
+	margin-top: -10px;
+}
+
+.email {
+  background: url('images/webicon-mail-m.png') no-repeat center center;
+}
+
+.linkedin {
+  background: url('images/webicon-linkedin-m.png') no-repeat center center;
+}
+
+.twitter {
+  background: url('images/webicon-twitter-m.png') no-repeat center center;
+}
+
+.blog {
+	background: url('images/webicon-blogger-m.png') no-repeat center center;
+}
+
+#matt {
+	z-index: 2;
+	position:fixed;
+	margin-left: 30%;
+	height:200px;
+	width:200px;
+	background-color: yellow;
+	border-radius:50%;
+	text-align:center;
+	margin-top: 10px;
+}
+
+h1 a p {
+	color:black;
+}
+
+h1 p {
+	z-index: 3;
+	margin-top: 10px;
+	font-size: 150px;
+}
+
+h2 {
+	color:yellow;
+}
+
+#header {
+	z-index: 1;
+	position:fixed;
+	height: 240px;
+	width: 100%;
+	background-color:#4E4C56;
+	margin-top: -20px;
+}
+
+.about_me {
+	position:relative;
+	float:left;
+	text-align: left;
+	width: 50%;
+	padding:30px;
+	margin-top: 230px;
+	margin-right: 20px;
+}
+
+.recommendations {
+	position:relative;
+	clear:right;
+	float:right;
+	margin-top: 230px;
+	text-align: center;
+	width:35%;
+	padding: 40px;
+}
+
+a:hover {
+	color:yellow;
+}	
+
+#footer {
+	position:relative;
+	height: 50px;
+	background-color:yellow;
+	clear: both;
+	font-family: Georgia, Serif;
+	font-size: 18px;
+	text-align: center;
+	bottom:0px;
+	text-decoration:bold;
+	left: 0px;
+	right:0px;
+}
+	
